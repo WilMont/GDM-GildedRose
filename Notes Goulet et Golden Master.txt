@@ -1,0 +1,23 @@
+### Goulet ###
+- Code beaucoup trop confus.
+- Il faudrait pouvoir simplifier cela en gérant les jours ("days") directement dans la fonction "updateQuality".
+- Code pas commenté.
+
+### Entrées et sorties ###
+## Entrées
+- Jours (days).
+- Nom de l'item (name).
+- Nb de jours pour vendre l'article (sellIn).
+- Qualité (quality).
+
+## Sorties
+- 
+
+
+### Notes ###
+- Pas le droit de toucher à la classe Item, donc pas d'ajout de booléen possible pour une propriété "isDegrading". (Sauf propriétés statiques).
+
+
+## Modifications du pom.xml pour que le projet fonctionne:
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> (dans <properties>)
+<version>3.1</version> (version du maven-compiler-plugin)
